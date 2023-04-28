@@ -1,0 +1,17 @@
+.container{
+  margin:10px
+}
+.letters{
+  border-bottom:3px solid black;
+  width: 25px;
+  height: 25px;
+  margin:10px;
+  margin-bottom: 30px;
+  padding:10px;
+
+
+}
+.toGuess{
+  margin:10px;
+}
+

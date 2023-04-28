@@ -1,0 +1,20 @@
+<div *ngIf="won!=''">{{won}}</div>
+<br>
+
+<div class="container">
+  <span *ngFor="let el of guessedLetters" class="col">
+    <span class="letters">{{el}}</span>
+  </span><br><br>
+  <input type="text" [(ngModel)]="guess" class="toGuess" maxlength="1">
+  <button (click)="checkLetter()" class="btn btn-primary">Check</button>
+  <div>{{wrongLetters.length}}</div>
+  <div>Wrong guesses:</div>
+  <div>
+  <span *ngFor="let elem of wrongLetters" class="col">
+    <span>{{elem}}</span>
+  </span>
+</div>
+  <div>
+
+</div>
+</div>
